@@ -1,0 +1,169 @@
+---
+- :name: U6IV_2132_saltkey
+  :value: GUVu9Sij
+  :path: "/"
+  :domain: bbs.sgamer.com
+  :expires: 2014-06-26 17:26:16.000000024 +08:00
+  :secure: false
+- :name: U6IV_2132_lastvisit
+  :value: '1401179176'
+  :path: "/"
+  :domain: bbs.sgamer.com
+  :expires: 2014-06-26 17:26:16.000000024 +08:00
+  :secure: false
+- :name: U6IV_2132_atarget
+  :value: '1'
+  :path: "/"
+  :domain: bbs.sgamer.com
+  :expires: 2014-06-26 17:26:16.000000024 +08:00
+  :secure: false
+- :name: U6IV_2132_visitedfid
+  :value: '44'
+  :path: "/"
+  :domain: bbs.sgamer.com
+  :expires: 2014-06-26 17:26:16.000000024 +08:00
+  :secure: false
+- :name: U6IV_2132_sendmail
+  :value: '1'
+  :path: "/"
+  :domain: bbs.sgamer.com
+  :expires: 2014-05-27 17:31:16.999999979 +08:00
+  :secure: false
+- :name: U6IV_2132_seccodeS0
+  :value: e6f2cFrgudo9goVVQg5vckfJ3fklrv30mUvjzkj%2FjhZ7i0CniUylXEMWHflRvRhGyVZgXncbWak
+  :path: "/"
+  :domain: bbs.sgamer.com
+  :expires: 
+  :secure: false
+- :name: U6IV_2132_seccodeSA0
+  :value: 57833smG1FWJ8lqfg87Ukj%2Fqcuve2m0QEWwTFSFcRqsehuY%2FEmB3FDd0LlDX8eWZiKN5Wa2FQwBB
+  :path: "/"
+  :domain: bbs.sgamer.com
+  :expires: 
+  :secure: false
+- :name: U6IV_2132_ulastactivity
+  :value: 1401182801%7C0
+  :path: "/"
+  :domain: bbs.sgamer.com
+  :expires: 2015-05-27 17:26:40.999999896 +08:00
+  :secure: false
+- :name: U6IV_2132_lastcheckfeed
+  :value: 358805%7C1401182801
+  :path: "/"
+  :domain: bbs.sgamer.com
+  :expires: 2015-05-27 17:26:40.999999896 +08:00
+  :secure: false
+- :name: U6IV_2132_checkfollow
+  :value: '1'
+  :path: "/"
+  :domain: bbs.sgamer.com
+  :expires: 2014-05-27 17:27:10.999999994 +08:00
+  :secure: false
+- :name: U6IV_2132_security_cookiereport
+  :value: 0b1cNXTE063RX8ercO0Ge%2Bag4IOtEwCM01SLY3N%2FRz4LBleD9S%2Fy
+  :path: "/"
+  :domain: bbs.sgamer.com
+  :expires: 2014-05-28 05:26:41.000000053 +08:00
+  :secure: false
+- :name: U6IV_2132_auth
+  :value: 2d8bheQoeeL5ojHDwaJTh%2BvZXI6mo%2FDGP9Yx4e%2BR6e%2BgcH8%2BeNvFmhhSagw5OFMIUCPe5P4R4q8BpQ6CSHpwunsc4H4
+  :path: "/"
+  :domain: bbs.sgamer.com
+  :expires: 2015-05-27 17:26:40.999999896 +08:00
+  :secure: false
+- :name: sgamer_passport_auth
+  :value: "%2BlcEsIHoiBZD6nHp8aLJ3ci%2BoIveQGFtk9zV3k%2FZPigzSc%2FTdxkCt34Ez92OfPahF9y%2F8XM4PXGOPa29cOuyt3wnLNQiLhkDkvxqigNGpkrSoy32qXgjI6PKfS26elaci8COPVxPcpxhB8PZe0qrKqTHWWnryxEeljefn6WAP4MhWPSPsreSBA%3D%3D"
+  :path: "/"
+  :domain: ".sgamer.com"
+  :expires: 
+  :secure: false
+- :name: U6IV_2132_forum_lastvisit
+  :value: D_44_1401182804
+  :path: "/"
+  :domain: bbs.sgamer.com
+  :expires: 2014-06-03 17:26:43.999999969 +08:00
+  :secure: false
+- :name: U6IV_2132_lastact
+  :value: 1401182807%09home.php%09spacecp
+  :path: "/"
+  :domain: bbs.sgamer.com
+  :expires: 2014-05-28 17:26:47.000000041 +08:00
+  :secure: false
+- :name: U6IV_2132_connect_is_bind
+  :value: '0'
+  :path: "/"
+  :domain: bbs.sgamer.com
+  :expires: 2015-05-27 17:26:47.000000041 +08:00
+  :secure: false
+- :name: U6IV_2132_checkpm
+  :value: '1'
+  :path: "/"
+  :domain: bbs.sgamer.com
+  :expires: 2014-05-27 17:27:16.999999982 +08:00
+  :secure: false
+- :name: sg_cblzb
+  :value: '1'
+  :path: "/"
+  :domain: bbs.sgamer.com
+  :expires: 
+  :secure: false
+- :name: pgv_pvi
+  :value: '7351964395'
+  :path: "/"
+  :domain: ".sgamer.com"
+  :expires: 2038-01-18 08:00:00.000000000 +08:00
+  :secure: false
+- :name: pgv_info
+  :value: ssi=s8431249821
+  :path: "/"
+  :domain: ".sgamer.com"
+  :expires: 
+  :secure: false
+- :name: CNZZDATA30039357
+  :value: cnzz_eid%3D971544869-1401182777-%26ntime%3D1401182777%26cnzz_a%3D1%26sin%3Dnone%26ltime%3D1401182777770
+  :path: "/"
+  :domain: bbs.sgamer.com
+  :expires: 2014-11-25 17:26:47.000000041 +08:00
+  :secure: false
+- :name: U6IV_2132_smile
+  :value: 1D1
+  :path: "/"
+  :domain: bbs.sgamer.com
+  :expires: 2015-05-27 17:26:47.000000041 +08:00
+  :secure: false
+- :name: __utma
+  :value: 193407742.1205794087.1401182779.1401182779.1401182779.1
+  :path: "/"
+  :domain: ".bbs.sgamer.com"
+  :expires: 2016-05-26 17:26:47.999999961 +08:00
+  :secure: false
+- :name: __utmb
+  :value: 193407742.2.10.1401182779
+  :path: "/"
+  :domain: ".bbs.sgamer.com"
+  :expires: 2014-05-27 17:56:48.000000013 +08:00
+  :secure: false
+- :name: __utmc
+  :value: '193407742'
+  :path: "/"
+  :domain: ".bbs.sgamer.com"
+  :expires: 
+  :secure: false
+- :name: __utmz
+  :value: 193407742.1401182779.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+  :path: "/"
+  :domain: ".bbs.sgamer.com"
+  :expires: 2014-11-26 05:26:47.999999961 +08:00
+  :secure: false
+- :name: Hm_lvt_0522e299349c37ba58372686c109e6c4
+  :value: '1401182779'
+  :path: "/"
+  :domain: ".sgamer.com"
+  :expires: 2015-05-27 17:26:47.999999961 +08:00
+  :secure: false
+- :name: Hm_lpvt_0522e299349c37ba58372686c109e6c4
+  :value: '1401182809'
+  :path: "/"
+  :domain: ".sgamer.com"
+  :expires: 
+  :secure: false
