@@ -1,6 +1,7 @@
 require 'watir-webdriver'
 def loadlink(mytimeout) 
  browser_loaded=0
+ expiredtime=0
  while (browser_loaded == 0)
    begin
    browser_loaded=1
@@ -10,10 +11,13 @@ def loadlink(mytimeout)
    rescue Timeout::Error => e
     puts "Page load timed out: #{e}"
     browser_loaded=0
+    expiredtime+=1
+    if expiredtime==5
+      browser_loaded=1
+    end
     puts "retry"
    end
  end
- puts "页面打开完毕"
 end
 def arraysame arr
 d=[]
@@ -53,25 +57,29 @@ end
 end
 #browser.text_field(:class => 'inpu1').set("WebDriver rocks!")
 #browser.button(:class => 'loginLink').click
+#delete应换成gsub
 link=0
 lots=[]
 replyed=0
-loop do
+while(replyed<200) do
+loadlink(delay){browser.goto "http://bbs.sgamer.com/forum-44-2.html"}
 browser.links.each do|l|
-  if l.href=~/thread-11\d\d\d\d\d\d-1-/
+  if l.href=~/thread-11\d+-1-/
     if lots.include?l.href
     else
       lots<<l.href
+      if (lots.length-link)==10
+        break
+      end
     end
   end
 end
-loadlink(delay){browser.goto "http://bbs.sgamer.com/forum-44-2.html"}
 puts lots
 puts lots.length
 print "分析完毕，进入帖子"
 #帖子内分析
-48.times do
-  loadlink(delay+20){browser.goto lots[link]}
+(lots.length-link).times do
+  loadlink(delay+10){browser.goto lots[link]}
   link+=1
 post=[]
 browser.tables.each do|l|
@@ -89,12 +97,15 @@ content=arraysame post
   if content.first>2
     replyed+=1
   print content
-  content.last.delete("&nbsp")
-  content.last.delete("<br>")
+  content.last.gsub!(/&nbsp;/,'  ')
+  content.last.gsub!(/<br>/,'')
+  content.last.gsub!(/n/,'nn')
+  content.last.gsub!(/N/,'NN')
   browser.textarea(id:'fastpostmessage').set(content.last)
   browser.button(id:'fastpostsubmit').click
-  everyother=rand(45..120)
+  everyother=rand(30..80)
   puts replyed,everyother
+  puts link
   sleep everyother
   end
 end
